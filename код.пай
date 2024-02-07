@@ -1,0 +1,11 @@
+x = input(" Введите число: ")
+d = input("Введите знак + , -, *, / : ")
+a = input("Введите второе число:")
+if d == "*":
+    print(multiply_nums(x,a))
+if d == "/":
+    print(divide_nums(x,a))
+if d == "+":
+    print(sum_nums(x,a))
+if d == "-":
+    print(sub_nums(x,a))
